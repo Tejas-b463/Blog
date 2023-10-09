@@ -1,0 +1,18 @@
+.fork-btn {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 200px;
+}
+
+.main-name {
+    font-size: 25px;
+}
+
+button {
+    font-size: 18px;
+    outline: none;
+    padding: 2px 5px;
+    border-radius: 5px;
+    cursor: pointer;
+}
