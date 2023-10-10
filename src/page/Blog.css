@@ -4,9 +4,7 @@
 }
 
 .blog-goBack {
-    text-decoration: none;
-    font-size: 0.8rem;
-    color: #a9a9a9;
+    color: rgba(0, 0, 0, 0.5);
     font-weight: 500;
     margin-bottom: 2rem;
     display: block;
@@ -20,10 +18,21 @@
     font-size: 0.8rem;
     color: #a9a9a9;
     font-weight: 500;
+    margin-bottom: 5px;
+}
+
+.blog-heading {
+    margin-left: 15px;
+}
+
+.blog-category {
+    color: rgba(0, 0, 0, 0.5);
+    font-weight: 400;
 }
 
 .blog-wrap img {
     width: 100%;
+    border-radius: 15px;
 }
 
 .blog-subCategory {
@@ -38,4 +47,6 @@
 .blog-desc {
     padding: 1rem;
     margin-top: 1.5rem;
+    line-height: 2rem;
+    font-size: 18px;
 }

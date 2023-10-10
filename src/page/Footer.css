@@ -16,3 +16,15 @@
     list-style-type: none;
     font-size: 20px;
 }
+
+@media(max-width:680px) {
+    .footer {
+        color: red;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .footer-copywright {
+        display: none;
+    }
+}

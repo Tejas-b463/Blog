@@ -22,16 +22,16 @@ const Blog = () => {
   return (
     <>
       <Link className='blog-goBack' to='/'>
-        <span> &#8592;</span> <span>Go Back</span>
+        <span> &#8592;</span>
       </Link>
       {blog ? (
         <div className='blog-wrap'>
           <header>
             <p className='blog-date'>Published {blog.createdAt}</p>
-            <h1>{blog.title}</h1>
+            <h1 className='blog-heading'>{blog.title}</h1>
             <div className='blog-subCategory'>
-              {blog.subCategory.map((category, i) => (
-                <div key={i}>
+              {blog.subCategory.map((category) => (
+                <div key={category.id} className='blog-category'>
                   <Chip label={category} />
                 </div>
               ))}
