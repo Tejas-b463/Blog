@@ -1,27 +1,25 @@
-.fork-btn {
+.header-container {
+    width: 100%;
     display: flex;
-    justify-content: space-between;
     align-items: center;
-    padding: 20px 200px;
-    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px 40px;
+    font-weight: 600;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
 }
 
-.main-name {
-    font-size: 25px;
-}
-
-button {
-    font-size: 18px;
-    outline: none;
-    padding: 5px;
-    border-radius: 5px;
+svg {
+    font-size: 26px;
+    padding: 2px;
     cursor: pointer;
-    border: none;
 }
 
-@media(max-width:680px) {
-    .fork-btn {
-        padding: 5px;
-        justify-content: space-evenly;
-    }
+.left {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+span {
+    font-size: 20px;
 }
