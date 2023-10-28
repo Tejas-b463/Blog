@@ -6,9 +6,6 @@ const Header = () =>{
           {/* DevDepth: Diving into Frontend and Backend Realities */}
           <h3>Dev-Depth</h3>
         <h1>Explore Learn Build 🚀</h1>
-        <h1>
-        <span>  </span>
-        </h1>
         <p>
         Diving into Frontend and Backend Realities
         </p>
